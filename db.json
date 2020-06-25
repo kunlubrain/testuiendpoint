@@ -1,16 +1,16 @@
 {
   "nodes": [
     { "id": 1, "type":"post", "title": "Post 1", "year":2000, "comment":"foo 42", "coordinate": {"xtopleft":100, "ytopleft":100}},
-    { "id": 2, "type":"post", "title": "Post 2", "year":2008, "comment":"bar xyz", "coordinate": {"xtopleft":100, "ytopleft":200}},
-    { "id": 3, "type":"post", "title": "Post 3", "year":2009, "comment":"microsoft goes to hell", "coordinate": {"xtopleft":300, "ytopleft":100}},
-    { "id": 4, "type":"card", "title": "Card 1", "size":10, "coordinate": {"xtopleft":300, "ytopleft":100}},
-    { "id": 5, "type":"card", "title": "Card 2", "size":15, "coordinate": {"xtopleft":300, "ytopleft":300}},
-    { "id": 6, "type":"card", "title": "Card 3", "size":8, "coordinate": {"xtopleft":300, "ytopleft":500}},
-    { "id": 7, "type":"item", "title": "Item 1", "price":0.5, "coordinate": {"xtopleft":500, "ytopleft":100}},
-    { "id": 8, "type":"item", "title": "Item 2", "size":20.99, "coordinate": {"xtopleft":500, "ytopleft":300}},
-    { "id": 9, "type":"shop", "title": "Shop 1", "city":"Beijing", "year":1990, "coordinate": {"xtopleft":700, "ytopleft":100}},
-    { "id": 10, "type":"shop", "title": "Shop 2", "city":"Beijing", "year":1996, "coordinate": {"xtopleft":700, "ytopleft":300}},
-    { "id": 11, "type":"shop", "title": "Shop 3", "city":"Beijing", "year":1999, "coordinate": {"xtopleft":700, "ytopleft":500}}
+    { "id": 2, "type":"post", "title": "Post 2", "year":2008, "comment":"bar xyz", "coordinate": {"xtopleft":100, "ytopleft":400}},
+    { "id": 3, "type":"post", "title": "Post 3", "year":2009, "comment":"microsoft goes to hell", "coordinate": {"xtopleft":100, "ytopleft":700}},
+    { "id": 4, "type":"card", "title": "Card 1", "size":10, "coordinate": {"xtopleft":400, "ytopleft":100}},
+    { "id": 5, "type":"card", "title": "Card 2", "size":15, "coordinate": {"xtopleft":425, "ytopleft":400}},
+    { "id": 6, "type":"card", "title": "Card 3", "size":8, "coordinate": {"xtopleft":450, "ytopleft":700}},
+    { "id": 7, "type":"item", "title": "Item 1", "price":0.5, "coordinate": {"xtopleft":700, "ytopleft":100}},
+    { "id": 8, "type":"item", "title": "Item 2", "size":20.99, "coordinate": {"xtopleft":700, "ytopleft":400}},
+    { "id": 9, "type":"shop", "title": "Shop 1", "city":"Beijing", "year":1990, "coordinate": {"xtopleft":1000, "ytopleft":100}},
+    { "id": 10, "type":"shop", "title": "Shop 2", "city":"Beijing", "year":1996, "coordinate": {"xtopleft":1000, "ytopleft":400}},
+    { "id": 11, "type":"shop", "title": "Shop 3", "city":"Beijing", "year":1999, "coordinate": {"xtopleft":1000, "ytopleft":700}}
   ],
   "edges": [
     { "id": 1, "from":1, "to":2, "label": "related to", "weight": 1 },
