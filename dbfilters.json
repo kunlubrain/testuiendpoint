@@ -1,0 +1,23 @@
+{
+  "header":"Filters",
+  "rows":[
+    {
+      "key": "born",
+      "filterType": "dropdown",
+      "options": [
+        {"value": "1999 (15%)"},
+        {"value": "1995 (10%)"},
+        {"value": "1992 (4%)"}
+        ]
+    },
+    {
+      "key": "movieCount",
+      "filterType": "dropdown",
+      "options": [
+        {"value": "10 (40%)"},
+        {"value": "6 (20%)"},
+        {"value": "4 (5%)"}
+        ]
+    }
+    ]
+}
