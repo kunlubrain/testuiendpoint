@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    { "id": 1, "type":"post", "title": "NaturalPerson", "properties": {"year":2000, "comment":"foo 42"}, "coordinate": {"xtopleft":100, "ytopleft":100}},
+    { "id": 2, "type":"post", "title": "PNaturalPerson", "properties": {"year":2008, "comment":"bar xyz"}, "coordinate": {"xtopleft":100, "ytopleft":400}},
+    { "id": 3, "type":"post", "title": "NaturalPerson", "properties": {"year":2009, "comment":"microsoft goes to hell"}, "coordinate": {"xtopleft":100, "ytopleft":700}},
+    { "id": 4, "type":"card", "title": "Policy 1", "properties": {"size":10}, "coordinate": {"xtopleft":400, "ytopleft":100}},
+    { "id": 5, "type":"card", "title": "Policy 2", "properties": {"size":15}, "coordinate": {"xtopleft":425, "ytopleft":400}},
+    { "id": 6, "type":"card", "title": "Policy 3", "properties": {"size":8}, "coordinate": {"xtopleft":450, "ytopleft":700}},
+    { "id": 61, "type":"card", "title": "Policy 4", "properties": {"size":8}, "coordinate": {"xtopleft":450, "ytopleft":850}},
+    { "id": 7, "type":"item", "title": "Claim 1", "properties": {"price":0.5}, "coordinate": {"xtopleft":700, "ytopleft":100}},
+    { "id": 8, "type":"item", "title": "Claim 2", "properties": {"size":20.99}, "coordinate": {"xtopleft":700, "ytopleft":400}},
+    { "id": 9, "type":"shop", "title": "Place 1", "properties": {"city":"Nanjing", "year":1990}, "coordinate": {"xtopleft":1000, "ytopleft":100}},
+    { "id": 10, "type":"shop", "title": "Place 2", "properties": {"city":"Beijing", "year":1996}, "coordinate": {"xtopleft":1000, "ytopleft":400}},
+    { "id": 11, "type":"shop", "title": "Place 3", "properties": {"city":"Beijing", "year":1999}, "coordinate": {"xtopleft":1000, "ytopleft":700}}
+  ],
+  "edges": [
+    { "id": 1, "from":1, "to":2, "label": "related to", "weight": 1 },
+    { "id": 2, "from":1, "to":3, "label": "xyz", "weight": 3 },
+    
+    { "id": 3, "from":1, "to":4, "label": "mm", "weight": 1 },
+    { "id": 3, "from":3, "to":6, "label": "mm", "weight": 3 },
+    
+    { "id": 4, "from":4, "to":7, "label": "rr", "weight": 1 },
+    { "id": 5, "from":5, "to":8, "label": "rr", "weight": 1 },
+    
+    { "id": 5, "from":4, "to":9, "label": "ss", "weight": 1 },
+    { "id": 5, "from":5, "to":10, "label": "ss", "weight": 1 },
+    { "id": 5, "from":6, "to":11, "label": "ss", "weight": 1 }
+  ]
+}
