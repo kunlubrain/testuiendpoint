@@ -1,5 +1,5 @@
 [
-  {"type":"post", "style":{"headercolor":"#aa8844", "bodycolor":"#884410", "width":100}},
+  {"type":"post", "style":{"headercolor":"#aa8844", "bodycolor":"#000000", "width":100}},
   {"type":"card", "style":{"headercolor":"#3399ff", "bodycolor":"#1055aa",  "width":100}},
   {"type":"item", "style":{"headercolor":"#008899", "bodycolor":"#004455",  "width":100}},
   {"type":"shop", "style":{"headercolor":"#992266", "bodycolor":"#440033",  "width":100}}
