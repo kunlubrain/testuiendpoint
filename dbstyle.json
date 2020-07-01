@@ -2,5 +2,5 @@
   {"type":"post", "style":{"headercolor":"#aa8844", "bodycolor":"#eeeeee", "width":60}},
   {"type":"card", "style":{"headercolor":"#3399ff", "bodycolor":"#dddddd",  "width":100}},
   {"type":"item", "style":{"headercolor":"#008899", "bodycolor":"#eeeeee",  "width":100}},
-  {"type":"shop", "style":{"headercolor":"#66dd66", "bodycolor":"#dddddd",  "width":100}}
+  {"type":"shop", "style":{"headercolor":"#aaaaaa", "bodycolor":"#dddddd",  "width":100}}
 ]
